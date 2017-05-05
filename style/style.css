@@ -27,5 +27,25 @@ nav a:hover {
 
 nav:hover {
   opacity: 1.0;
-  transition: opacity 2s ease-in-out;
+  transition: opacity 1.2s ease-in-out;
 }
+
+                                    /* TESTIMONIALS */
+.testimon{
+  width: 32%;
+  padding: 1em, 1em;
+}
+
+.testmimonialImg {
+  width: 35%;
+  border-radius: 50%;
+}
+
+/*.testimon:before {
+  content: '\201C';
+  font-size: 3em;
+}
+.testimon:after {
+  content: '\201D';
+  font-size: 3em;
+}*/
