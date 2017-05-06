@@ -2,7 +2,24 @@
 .title{
   padding: 0.5em;
 }
+.photo {
+  position: relative;
+  text-align: center;
+  height:20em;
+  z-index: 100;
+}
+.imgText {
+    position: relative;
+    padding-top: 0.8em;
+    color: #E6E6E9;
+}
                                                 /* HEADER */
+#shoes {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(180,150,250, 0.1)),
+              url(http://res.cloudinary.com/redkasa/image/upload/v1494039660/shoes2_bav1mv.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
 /*Navigation*/
 .navigation{
   text-align: center;
