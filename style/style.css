@@ -1,3 +1,7 @@
+                                                /*UNIVERSAL*/
+.title{
+  padding: 0.5em;
+}
                                                 /* HEADER */
 /*Navigation*/
 .navigation{
@@ -28,6 +32,16 @@ nav a:hover {
 nav:hover {
   opacity: 1.0;
   transition: opacity 1.2s ease-in-out;
+}
+
+.header{
+  margin-top: 4em;
+}
+                                    /*LOCATION & DATES*/
+.map {
+  height: 13em;
+  width: 100%;
+  background-color: grey;
 }
 
                                     /* TESTIMONIALS */
