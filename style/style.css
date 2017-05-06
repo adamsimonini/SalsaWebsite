@@ -1,6 +1,13 @@
                                                 /*UNIVERSAL*/
+.span{
+  background-color: #8f0000;
+  color: white;
+}
 .title{
-  padding: 0.5em;
+  font-size: 4em;
+  font-weight: 700;
+  padding: 0.8em;
+  color: #8f0000;
 }
 .photo {
   position: relative;
@@ -11,7 +18,7 @@
 .imgText {
     position: relative;
     padding-top: 0.8em;
-    color: #E6E6E9;
+    color: white;
 }
                                                 /* HEADER */
 #shoes {
@@ -19,6 +26,12 @@
               url(http://res.cloudinary.com/redkasa/image/upload/v1494039660/shoes2_bav1mv.jpg) no-repeat fixed;
   background-size: cover;
 }
+#hanging {
+  background: linear-gradient(rgba(255,255,255, 0.1 ), rgba(0, 0, 0, 0.5)),
+              url(http://res.cloudinary.com/redkasa/image/upload/v1494084119/hangingshoes_mdaghy.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
 
 /*Navigation*/
 .navigation{
@@ -60,6 +73,10 @@ nav:hover {
   width: 100%;
   background-color: grey;
 }
+.dotw{
+  font-size: 2.2em;
+  color: #8f0000;
+}
 
                                     /* TESTIMONIALS */
 .testimon{
@@ -71,6 +88,26 @@ nav:hover {
   width: 40%;
   border-radius: 50%;
   display: block;
+}
+
+                                    /*FOOTER*/
+
+.social{
+    color: white;
+    border-radius: 50%;
+    padding: 0.5em;
+    opacity: 0.5;
+}
+
+.social:hover{
+    opacity: 0.9;
+     -webkit-transition: background-color 0.5s ease-in;
+     -moz-transition: background-color 0.5s ease-in;
+     -o-transition: background-color 0.5s ease-in;
+}
+.contact{
+    font-size: 3.5vw;
+    font-weight: 900;
 }
 
 /*.testimon:before {
