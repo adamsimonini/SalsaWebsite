@@ -93,6 +93,15 @@ nav:hover {
               url(http://res.cloudinary.com/redkasa/image/upload/v1494173450/socialdance_yvaaks.jpg) no-repeat fixed;
   background-size: cover;
 }
+.socials{
+  font: white;
+  font-size: 2.5vw;
+}
+.socialsTitle{
+  font: white;
+  font-size: 5vw;
+  font-weight: 700;
+}
 
 
                                     /* TESTIMONIALS */
@@ -142,9 +151,12 @@ nav:hover {
   }
 .imgText {
       padding-top: 30%;
+      padding-bottom: 0;
     }
 .title {
       padding-top: 30%;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }
 .contact{
       font-size: 5vw;
@@ -160,4 +172,7 @@ nav:hover {
 .icons {
   font-size: 6vw;
   }
+#socials{
+  height: 20em;
+}
 }
