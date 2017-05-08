@@ -1,10 +1,10 @@
-                                                /*UNIVERSAL*/
+                                        /*UNIVERSAL*/
 .span{
   background-color: #8f0000;
   color: white;
 }
 .title{
-  font-size: 4em;
+  font-size: 7vw;
   font-weight: 700;
   padding: 0.8em;
   color: #8f0000;
@@ -12,23 +12,25 @@
 .photo {
   position: relative;
   text-align: center;
-  height:20em;
+  height: 25em;
   z-index: 100;
 }
 .imgText {
     position: relative;
-    padding-top: 0.8em;
+    padding: 3% 0 1% 0;
     color: white;
+    font-size: 8vw;
 }
-                                                /* HEADER */
+.topImgText {
+    position: relative;
+    padding: 3% 0 1% 0;
+    color: white;
+    font-size: 8vw;
+}
+                                      /* HEADER */
 #shoes {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(180,150,250, 0.1)),
-              url(http://res.cloudinary.com/redkasa/image/upload/v1494039660/shoes2_bav1mv.jpg) no-repeat fixed;
-  background-size: cover;
-}
-#hanging {
-  background: linear-gradient(rgba(255,255,255, 0.1 ), rgba(0, 0, 0, 0.5)),
-              url(http://res.cloudinary.com/redkasa/image/upload/v1494084119/hangingshoes_mdaghy.jpg) no-repeat fixed;
+              url(http://res.cloudinary.com/redkasa/image/upload/v1494171340/shoeselect2_vr7h4z.jpg) no-repeat fixed;
   background-size: cover;
 }
 
@@ -67,6 +69,13 @@ nav:hover {
 .header{
   margin-top: 4em;
 }
+
+                                    /*ICONS*/
+
+.icons {
+  padding: 3%;
+  font-size: 2vw;
+}
                                     /*LOCATION & DATES*/
 .map {
   height: 13em;
@@ -74,9 +83,17 @@ nav:hover {
   background-color: grey;
 }
 .dotw{
-  font-size: 2.2em;
+  font-size: 3.5vw;
   color: #8f0000;
 }
+                                      /*SOCIALS*/
+
+#socials {
+  background: linear-gradient(rgba(255,255,255, 0.1 ), rgba(0, 0, 0, 0.5)),
+              url(http://res.cloudinary.com/redkasa/image/upload/v1494173450/socialdance_yvaaks.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
 
                                     /* TESTIMONIALS */
 .testimon{
@@ -99,6 +116,12 @@ nav:hover {
     opacity: 0.5;
 }
 
+#hanging {
+  background: linear-gradient(rgba(255,255,255, 0.1 ), rgba(0, 0, 0, 0.5)),
+              url(http://res.cloudinary.com/redkasa/image/upload/v1494084119/hangingshoes_mdaghy.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
 .social:hover{
     opacity: 0.9;
      -webkit-transition: background-color 0.5s ease-in;
@@ -110,11 +133,31 @@ nav:hover {
     font-weight: 900;
 }
 
-/*.testimon:before {
-  content: '\201C';
-  font-size: 3em;
+/* MEDIA QUERIES*/
+
+@media (max-width: 585px) {
+.topImgText {
+    padding-top: 40%;
+    padding-bottom: 1%
+  }
+.imgText {
+      padding-top: 30%;
+    }
+.title {
+      padding-top: 30%;
+    }
+.contact{
+      font-size: 5vw;
+      font-weight: 900;
+  }
+.navigation{
+    opacity: 1;
+  }
+.dotw{
+  font-size: 7vw;
+  color: #8f0000;
+  }
+.icons {
+  font-size: 6vw;
+  }
 }
-.testimon:after {
-  content: '\201D';
-  font-size: 3em;
-}*/
