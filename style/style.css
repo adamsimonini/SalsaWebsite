@@ -38,6 +38,7 @@
 /*Navigation*/
 .navigation{
   text-align: center;
+  color: #8f0000;
   background-color: #F4F4F6;
   opacity: 0.8;
   position: fixed;
@@ -161,9 +162,6 @@ nav:hover {
 .contact{
       font-size: 5vw;
       font-weight: 900;
-  }
-.navigation{
-    opacity: 1;
   }
 .dotw{
   font-size: 7vw;
