@@ -40,14 +40,24 @@
 
   <body>
     <header>
-      <nav class="navigation">
-        <a class="nav-item" href="#title"><i class="fa fa-home fa-2x"></i></a>
-        <a class="nav-item" href="#lessons">Lessons</a>
-        <a class="nav-item" href="#pricing">Pricing</a>
-        <a class="nav-item" href="#socials">Socials</a>
-        <a class="nav-item" href="#testimonials">Testimonials</a>
-        <a class="nav-item" href="#contact">Contact</a>
+
+      <nav class="navbar fixed-top navbar-inverse navbar-toggleable-sm navbar-custom">
+        <button id="navbutton" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#ErrolNav" aria-controls="ErrolNav" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h2 class="navbar-brand">Errol's Salsa & Bachata!</h2>
+
+        <div class="collapse navbar-collapse" id="ErrolNav">
+          <div class="navbar-nav">
+            <a class="nav-item navbar-link" href="#lessons">Lessons</a>
+            <a class="nav-item navbar-link" href="#pricing">Pricing</a>
+            <a class="nav-item navbar-link" href="#socials">Socials</a>
+            <a class="nav-item navbar-link" href="#testimonials">Testimonials</a>
+            <a class="nav-item navbar-link" href="#contact">Contact</a>
+          </div>
+        </div>
       </nav>
+
     </header>
 
     <div id="title" class="text-center header">
@@ -77,7 +87,7 @@
 <!-- container -->
 
 <!-- LESSONS & DATES-->
-<h2 id="lessons" class="text-center title"> Lesson Dates & Times </h2>
+<h2 id="lessons" class="text-center"> Lesson Dates & Times </h2>
 <section class="container">
 <!-- First Row of Maps -->
     <div class="row text-center justify-content-around">
@@ -133,7 +143,7 @@
     <br>
 </section>
 <!-- PRICING -->
-  <h2 id="pricing" class="text-center title"> Pricing </h2>
+  <h2 id="pricing" class="text-center"> Pricing </h2>
   <article style="" class="span">
       <div class="row text-center justify-content-center icons">
           <div style="font-size: 2.5em" class="col-md-1 col-sm-12">One</div>
@@ -152,7 +162,7 @@
 
 <!-- SOCIALS -->
     <div id="socials" class="photo">
-      <h2 class="imgText title text-center">Socials</h2>
+      <h2 class="imgText text-center">Socials</h2>
     </div>
         <!-- <div class="row imgText">
           <article class="col-md-3 col-sm-12 socials">
@@ -178,7 +188,7 @@
 
 <!-- TESTIMONIALS -->
   <section id="testimonials" class="container">
-    <h2 class="text-center title"> Testimonials </h2>
+    <h2 class="text-center"> Testimonials </h2>
     <div class="row">
       <article class="col-lg-4 col-md-4 col-sm-12">
         <img class="testmimonialImg mx-auto" src="http://res.cloudinary.com/redkasa/image/upload/v1494018054/Junko-Headstop_dvedvu.png">
@@ -213,13 +223,48 @@
       </article>
   <!-- Testmonial 3 End -->
     </div>
+
+    <div class="row">
+      <article class="col-lg-4 col-md-4 col-sm-12">
+        <img class="testmimonialImg mx-auto" src="http://res.cloudinary.com/redkasa/image/upload/v1494018054/Junko-Headstop_dvedvu.png">
+        <blockquote class="blockquote">
+          I really enjoy the atmosphere of the dance classes. The energy is high and I'm always learning something new. Dancing has become a passion of mine thanks to Errol.
+          <div class="blockquote-footer text-right">
+            Testimonial 4
+          </div>
+        </blockquote>
+      </article>
+  <!-- Testmonial 4 End -->
+
+      <article class="col-lg-4 col-md-4 col-sm-12">
+        <img class="testmimonialImg mx-auto" src="http://res.cloudinary.com/redkasa/image/upload/v1491162410/dice_k1wu3s.png">
+        <blockquote class="blockquote">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          <div class="blockquote-footer text-right">
+            Testimonial 5
+          </div>
+        </blockquote>
+      </article>
+  <!-- Testmonial 5 End -->
+
+      <article class="col-lg-4 col-md-4 col-sm-12">
+        <img class="testmimonialImg mx-auto" src="http://res.cloudinary.com/redkasa/image/upload/v1493224013/headshot_small_xhxm91.png">
+        <blockquote class="blockquote">
+          Errol is an excellent and patient instructor. When I started I knew zero salsa and it was all a bit overwhelming. Now I'm performing cross body leads, copas, and arm-lock turns with confidence & ease!
+          <div class="blockquote-footer text-right">
+            Testimonial 6
+          </div>
+        </blockquote>
+      </article>
+  <!-- Testmonial 6 End -->
+    </div>
   </section>
 
 <!-- CONTACT -->
   <footer>
     <section id="contact">
       <div id="hanging" class="photo">
-        <h2 class="imgText title text-center">Contact</h2>
+        <h2 class="imgText text-center">Contact</h2>
           <div class="row justify-content-around imgText">
             <article class="col-md-5 col-sm-12 contact">
               <i class="fa fa-phone fa-1x"> 416.804.5030</i>

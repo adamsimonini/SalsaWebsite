@@ -19,13 +19,17 @@
     position: relative;
     padding: 3% 0 1% 0;
     color: white;
-    font-size: 8vw;
+    font-size: 4em;
 }
 .topImgText {
     position: relative;
     padding: 3% 0 1% 0;
     color: white;
-    font-size: 8vw;
+    font-size: 4em;
+}
+
+h2 {
+  font-size: 4em;
 }
                                       /* HEADER */
 #shoes {
@@ -49,16 +53,59 @@
 
 nav a {
   display: inline-block;
-  padding: 15px 20px;
+  padding: 8px 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+  color: #ffffff;
 
   transition: background .5s ease-in, transform .3s .25s ease-in-out;
 }
 
+/* CUSTOM NAVIGATION BAR COLOR SCHEME*/
+
+.navbar-custom {
+    background-color: #8f0000;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(255,255,255);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+#navbutton{
+  color: #ffffff;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
+
+/* for dropdown only - change the color of dropdown */
+.navbar-custom .dropdown-menu {
+    background-color: #ff5500;
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
+
+
 nav a:hover {
-  background: #9999A1;
+  background: #ffffff;
+  color: #8f0000;
 	transform: scale(1.2);
 }
 
@@ -67,9 +114,21 @@ nav:hover {
   transition: opacity 1.2s ease-in-out;
 }
 
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
 .header{
   margin-top: 4em;
-}
+}*/
 
                                     /*ICONS*/
 
@@ -103,7 +162,6 @@ nav:hover {
   font-size: 5vw;
   font-weight: 700;
 }
-
 
                                     /* TESTIMONIALS */
 .testimon{
@@ -154,11 +212,9 @@ nav:hover {
       padding-top: 30%;
       padding-bottom: 0;
     }
-.title {
-      padding-top: 30%;
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
+#testimonials {
+  font-size: 0.7em;
+}
 .contact{
       font-size: 5vw;
       font-weight: 900;
