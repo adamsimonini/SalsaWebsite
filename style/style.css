@@ -15,11 +15,18 @@
   height: 25em;
   z-index: 100;
 }
-.imgText {
+h2.imgText {
     position: relative;
-    padding: 3% 0 1% 0;
-    color: white;
+    padding: 10vh 0 1% 0;
+    color: #ffffff;
     font-size: 4em;
+}
+.imgText{
+  color: #ffffff;
+}
+
+p.imgText{
+  color: #ffffff;
 }
 .topImgText {
     position: relative;
@@ -28,14 +35,19 @@
     font-size: 4em;
 }
 
+body{
+  font-size: 1.5rem;
+}
 h2 {
   font-size: 4em;
+  padding-top: 10vh;
 }
                                       /* HEADER */
 #shoes {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(180,150,250, 0.1)),
               url(http://res.cloudinary.com/redkasa/image/upload/v1494171340/shoeselect2_vr7h4z.jpg) no-repeat fixed;
   background-size: cover;
+  max-height: 450px;
 }
 
 
@@ -53,7 +65,7 @@ h2 {
 
 nav a {
   display: inline-block;
-  padding: 8px 20px;
+  padding: 15px 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -188,6 +200,7 @@ nav:hover {
   background: linear-gradient(rgba(255,255,255, 0.1 ), rgba(0, 0, 0, 0.5)),
               url(http://res.cloudinary.com/redkasa/image/upload/v1494084119/hangingshoes_mdaghy.jpg) no-repeat fixed;
   background-size: cover;
+  max-height: 450px;
 }
 
 .social:hover{
@@ -205,15 +218,15 @@ nav:hover {
 
 @media (max-width: 585px) {
 .topImgText {
-    padding-top: 40%;
+    padding-top: 10%;
     padding-bottom: 1%
   }
 .imgText {
-      padding-top: 30%;
+      padding-top: 10%;
       padding-bottom: 0;
     }
 #testimonials {
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 .contact{
       font-size: 5vw;
