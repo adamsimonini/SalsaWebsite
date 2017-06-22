@@ -45,7 +45,7 @@ h2 {
                                       /* HEADER */
 #shoes {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(180,150,250, 0.1)),
-              url(http://res.cloudinary.com/redkasa/image/upload/v1494171340/shoeselect2_vr7h4z.jpg) no-repeat fixed;
+              url(../photos/salsashoes.jpg) no-repeat fixed;
   background-size: cover;
   max-height: 450px;
 }
@@ -87,6 +87,11 @@ nav a {
 }
 
 /* change the link color */
+
+.navbar-brand{
+  font-size: 1.5em;
+}
+
 .navbar-custom .navbar-nav .nav-link {
     color: #ffffff;
 }
@@ -115,7 +120,7 @@ nav a {
 }
 
 
-nav a:hover {
+nav a.nav-item:hover {
   background: #ffffff;
   color: #8f0000;
 	transform: scale(1.2);
@@ -139,7 +144,7 @@ nav:hover {
 }
 
 .header{
-  margin-top: 4em;
+  margin-top: 2.5em;
 }*/
 
                                     /*ICONS*/
@@ -162,7 +167,7 @@ nav:hover {
 
 #socials {
   background: linear-gradient(rgba(255,255,255, 0.1 ), rgba(0, 0, 0, 0.5)),
-              url(http://res.cloudinary.com/redkasa/image/upload/v1494173450/socialdance_yvaaks.jpg) no-repeat fixed;
+              url(../photos/socialsalsa.jpg) no-repeat fixed;
   background-size: cover;
 }
 .socials{
@@ -198,7 +203,7 @@ nav:hover {
 
 #hanging {
   background: linear-gradient(rgba(255,255,255, 0.1 ), rgba(0, 0, 0, 0.5)),
-              url(http://res.cloudinary.com/redkasa/image/upload/v1494084119/hangingshoes_mdaghy.jpg) no-repeat fixed;
+              url(../photos/hangingsalsashoes.jpg) no-repeat fixed;
   background-size: cover;
   max-height: 450px;
 }
@@ -217,6 +222,9 @@ nav:hover {
 /* MEDIA QUERIES*/
 
 @media (max-width: 585px) {
+.navbar-brand{
+  font-size: 0.8em;
+}
 .topImgText {
     padding-top: 10%;
     padding-bottom: 1%

@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.dancesalsatoronto\.ca$ [NC]
+RewriteRule ^(.*)$ https://www.dancesalsatoronto.ca/$1 [R=301,L]
